@@ -5,8 +5,8 @@ require File.expand_path('../config/application', __FILE__)
 
 ProjectAmazing::Application.load_tasks
 
-ADMIN_PASSWORD = '64bafb06b7686e103aff043efeb84598'
-ADMIN_EMAIL    = 'admin@admin.com'
+ADMIN_PASSWORD = 'admin@website.com'
+ADMIN_EMAIL    = 'totallysecurepassword'
 
 task :setup => [:clear, :environment] do
   User.create(
